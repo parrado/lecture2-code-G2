@@ -1,1 +1,1 @@
-# lecture2-code-G2
+# Código fuente unidad 3 - Programación
