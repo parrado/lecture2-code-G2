@@ -1,0 +1,16 @@
+from unittest import TestCase
+from unittest import main
+
+class TestAbsFunction(TestCase):
+    def test_positive_number(self):
+        self.assertEqual(abs(10), 10)
+
+    def test_negative_number(self):
+        self.assertEqual(abs(-10), 10)
+
+    def test_zero(self):
+        self.assertEqual(abs(0), 0)
+
+if __name__ == '__main__':
+    # begin the unittest.main()
+    main()
