@@ -39,8 +39,7 @@ class TestWheel(Tk):
 
 
 
-    def spin_wheel(self):
-       
+    def spin_wheel(self):     
         
 
         # Number of rotations

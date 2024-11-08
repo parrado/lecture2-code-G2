@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 
 
-class SampleApp(Tk):
+class TestButtonClick(Tk):
     def __init__(self):
         super().__init__()
         self.resizable(False, False)
@@ -28,7 +28,7 @@ class SampleApp(Tk):
 
        
 
-app = SampleApp()
+app = TestButtonClick()
 app.mainloop()
 
 
